@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>HeroBuxx</title>
+</head>
+<body>
+    <div class="container">
+        <section id="header">
+            <div class="header">
+                <img class="profilepic" src="https://avatars.githubusercontent.com/u/53365858?v=4">
+                <h1>Hello, my name is Alif Fathur!</h1>
+                <a href="#content">
+                    <button class="btn_main">Know about me more!</button>
+                </a>
+            </div>
+        </section>
+        <section id="content" class="page-content">
+            <div class="expl-content" id="aboutme">
+                <h2>About Me</h2>
+                <p>
+                    <span>Hello! I am Aliffathur Muhammad Revan. I am a student at Universitas Logistik dan Bisnis Internasional or ULBI in short.</span>
+                    <span>I am passionate on software engineering. I have experiences on Android/AOSP Development. Linux Server Maintenance, Web Development, Graphic Design, UI/UX Desig, Music Production, and lots of other things.</span>
+                </p>
+                <p>
+                    <span>Currently i am a Device Maintainer at PixelExperience, and Lead Developer at conquerOS. Slight sight about conquerOS, it's an Android Distribution bringing minimalistic concept and redefined UI and UX Design. It's based on CLO Android for MSM. So, it's optimized for Snapdragon based devices. .</span>
+                </p>
+            </div>
+
+            <div class="expl-content" id="aboutme">
+                <div>
+                    <h2>Skillset</h2>
+                    <p>
+                        <span>Git</span>
+                        <br>
+                        <progress value="79" max="100"> 79% </progress>
+                    </p>
+                    <p>
+                        <span>HTML and CSS</span>
+                        <br>
+                        <progress value="72" max="100"> 72% </progress>
+                    </p>
+                    <p>
+                        <span>C and C++</span>
+                        <br>
+                        <progress value="25" max="100"> 25% </progress>
+                    </p>
+                    <p>
+                        <span>Python</span>
+                        <br>
+                        <progress value="43" max="100"> 43% </progress>
+                    </p>
+                    <p>
+                        <span>Bash</span>
+                        <br>
+                        <progress value="71" max="100"> 71% </progress>
+                    </p>
+                    <p>
+                        <span>Android/AOSP Development</span>
+                        <br>
+                        <progress value="86" max="100"> 86% </progress>
+                    </p>
+                    <p>
+                        <span>Java</span>
+                        <br>
+                        <progress value="67" max="100"> 67% </progress>
+                    </p>
+                </div>
+            </div>
+            <a href="#" class="act-btn">
+                <span class="material-symbols-outlined">
+                    expand_less
+                </span>
+            </a>
+        </section>
+    </div>
+</body>
+<script>
+    $("#btn").click(function() {
+	$('.shrinker').removeClass('timelapse');
+	setTimeout(function() {
+		$('.shrinker').addClass('timelapse');
+	}, 500)
+    })
+
+</script>
+</html>

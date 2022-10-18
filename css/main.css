@@ -1,0 +1,106 @@
+@import url('https://rsms.me/inter/inter.css');
+
+html { 
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: white;
+    min-height: 97vh;
+    background: url(../img/background.webp) no-repeat center center fixed; 
+    background-color: #222933;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.header {
+	position: absolute;
+	font-size: 15px;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.content {
+	position: absolute;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.profilepic {
+    width: 25%;
+    height: auto;
+    border-radius: 1000px;
+}
+
+.btn_main {
+    background-color: rgba(100%, 100%, 100%, 20%);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    color: #000000;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.page-content {
+    background-color: rgba(165, 165, 165, 0.2);
+    backdrop-filter: blur(50px);
+    border-radius: 4vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.expl-content {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+progress {
+    height: 1vh;
+    width: 45%;
+    border-radius: 100px;
+}
+
+.act-btn{
+  background-color: rgba(100%, 100%, 100%, 20%);
+  backdrop-filter: blur(10px);
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-decoration: none;
+  transition: ease all 0.3s;
+  position: fixed;
+  right: 30px;
+  bottom:30px;
+}
+.act-btn:hover {
+    background-color: rgba(100%, 100%, 100%, 20%);
+    backdrop-filter: blur(10px);
+}
